@@ -1,0 +1,86 @@
+/* Gaya Dasar */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #4caf50, #81c784);
+  color: #fff;
+}
+
+/* Menu Utama */
+#menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#menu h1 {
+  margin-top: 20px;
+}
+
+#menu button {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #388e3c;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#menu button:hover {
+  background-color: #66bb6a;
+}
+
+/* Editor */
+#editor {
+  display: none;
+  padding: 20px;
+}
+
+#editor h2 {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 80%;
+  height: 300px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+#editor button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#saveFile {
+  background-color: #388e3c;
+  color: #fff;
+}
+
+#saveFile:hover {
+  background-color: #66bb6a;
+}
+
+#backButton {
+  background-color: #c62828;
+  color: #fff;
+}
+
+#backButton:hover {
+  background-color: #e53935;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SaveEditor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Menu Utama -->
+  <div id="menu">
+    <h1>SaveEditor</h1>
+    <p>Alat sederhana untuk membaca dan mengedit file save game Anda.</p>
+    <button id="openEditor">Buka Editor</button>
+    <button id="aboutApp">Tentang Aplikasi</button>
+  </div>
+
+  <!-- Editor -->
+  <div id="editor">
+    <h2>SaveEditor - Edit File Save</h2>
+    <input type="file" id="fileInput" />
+    <textarea id="fileContent" placeholder="File content will appear here..."></textarea>
+    <br />
+    <button id="saveFile">Simpan File</button>
+    <button id="backButton">Kembali ke Menu</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
